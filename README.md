@@ -112,7 +112,7 @@ git clone https://github.com/GithubNaman259/LifelineDB--A-Blood-Bank-Management-
 - Restart Apache from your XAMPP control panel
 
 
-### 🔧 Step 3: XAMPP Setup
+### 🔧 Step 4: Run Project
 
 - Open your browser and go to:
   ```text
@@ -122,3 +122,9 @@ git clone https://github.com/GithubNaman259/LifelineDB--A-Blood-Bank-Management-
 - Use the dropdown menu on the interface to simulate and visualize different PL/SQL procedures!
 
 ---
+
+## 🙏 Acknowledgements
+
+- SQL Schema and PL/SQL Procedures: Designed and implemented by ME (Naman Kumar).
+
+- Frontend Interface, PHP Integration & XAMPP Configuration: Developed with assistance from **ChatGPT** by OpenAI.
