@@ -54,7 +54,7 @@ A **Blood Bank Management System** that allows users to register donors and pati
 
 Watch the full working demo of the project:
 
-👉 [Watch Demo Video](demo/Demo.mp4)
+👉 [Watch Demo Video](https://drive.google.com/file/d/1_UeDFNqDwnQsgyTAM6ka0uqom2HrIZl9/view?usp=sharing)
 
 
 
