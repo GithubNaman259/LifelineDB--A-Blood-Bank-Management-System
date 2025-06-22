@@ -2,7 +2,7 @@
 
 A **Blood Bank Management System** that allows users to register donors and patients, record blood donations, request blood units, and manage inventory — all powered by **Oracle SQL procedures**, **PHP backend**, and a **dynamic HTML+CSS+JavaScript frontend**.
 
-> **Built for educational and demonstration purposes**, prototype for DBMS lab projects or college mini-projects.
+> **Built for educational and demonstration purposes**, prototype for DataBase Management System lab projects or college mini-projects.
 
 ---
 
@@ -54,12 +54,71 @@ A **Blood Bank Management System** that allows users to register donors and pati
 
 Watch the full working demo of the project:
 
-👉 [YouTube Demo Link](https://your-demo-link-here) *(upload on YouTube or GitHub)*
+👉 [Watch Demo Video](demo/Demo.mp4)
 
-> Or place `bloodbank_demo.mp4` in a `demo/` folder and embed it locally.
+
 
 ---
 
-## 📦 Project Structure
+## 📁 Project Structure
+
+```text
+LifelineDB--A-Blood-Bank-Management-System/
+│
+├── demo/                       # 🎥 Demo video folder
+│   └── Demo.mp4
+│
+├── screenshots/                # 🖼️ Screenshots folder
+│   ├── 0(homepage).png
+│   ├── 1.png
+│   └── ... up to 10.png
+│
+├── Blood_Bank_Schema.sql       # 📄 Oracle DB schema + procedures
+├── index.html                  # 🌐 Main UI interface
+├── styles.css                  # 🎨 Styling for the interface
+├── script.js                   # ⚙️ JavaScript logic for frontend
+└── execute_procedure.php       # 🧠 PHP backend with PL/SQL bridge
+```
+
+---
+
+## 🚀 Setup Instructions
+
+### 🔧 Step 1: Clone or Download
+
+```bash
+git clone https://github.com/GithubNaman259/LifelineDB--A-Blood-Bank-Management-System.git
+```
+
+### 🔧 Step 2: Oracle DB Setup
+
+- Open Oracle SQL Developer
+- Connect to your XE database as SYSTEM
+- Open Blood_Bank_Schema.sql
+- Run the file to create all tables and procedures
+
+### 🔧 Step 3: XAMPP Setup
+
+- Copy the entire project folder to:
+  ```text
+  C:/xampp/htdocs/LifelineDB--A-Blood-Bank-Management-System
+  ```
+  
+- Enable the following extension in your **php.ini** file:
+  ```text
+  php_oci8_12c.dll
+  ```
+  
+- Restart Apache from your XAMPP control panel
 
 
+### 🔧 Step 3: XAMPP Setup
+
+- Open your browser and go to:
+  ```text
+  http://localhost/LifelineDB--A-Blood-Bank-Management-System/index.html
+  ```
+
+- Use the dropdown menu on the interface to simulate and visualize different PL/SQL procedures!
+
+---
