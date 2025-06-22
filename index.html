@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Bank Management System</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span class="drop">🩸</span> Blood Bank Management System</h1>
+    </header>
+
+    <div class="container">
+      <label for="procedure">Select a Procedure:</label>
+      <select id="procedure" onchange="renderForm()">
+        <option value="">-- Select an Option --</option>
+        <option value="1">1. Insert Donor</option>
+        <option value="2">2. Insert Patient</option>
+        <option value="3">3. Add Blood Donation</option>
+        <option value="4">4. Request Blood</option>
+        <option value="5">5. Show All Donors</option>
+        <option value="6">6. Show Patients by Hospital</option>
+        <option value="7">7. Show Inventory Summary</option>
+        <option value="8">8. Show All Requests</option>
+        <option value="9">9. Show Donor Reward History</option>
+        <option value="10">10. Find Donors by Blood Group</option>
+      </select>
+
+      <form id="procedureForm" onsubmit="handleSubmit(event)"></form>
+
+      <div id="output"></div>
+    </div>
+
+    <footer>
+      <p>Made with ❤️ for life-saving data</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

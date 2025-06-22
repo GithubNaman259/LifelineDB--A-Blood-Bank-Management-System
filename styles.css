@@ -1,0 +1,85 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #fff3f3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c0392b;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header .drop {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(192, 57, 43, 0.2);
+  border: 1px solid #f5b7b1;
+}
+
+label,
+select,
+input,
+button {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 1px solid #e74c3c;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #c0392b;
+}
+
+#output {
+  margin-top: 25px;
+  padding: 15px;
+  background: #fdecea;
+  border-left: 6px solid #e74c3c;
+  border-radius: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #b03a2e;
+  font-weight: bold;
+}
