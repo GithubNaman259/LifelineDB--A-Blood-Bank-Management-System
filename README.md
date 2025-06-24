@@ -127,4 +127,4 @@ git clone https://github.com/GithubNaman259/LifelineDB--A-Blood-Bank-Management-
 
 - SQL Schema and PL/SQL Procedures: Designed and implemented by ME (Naman Kumar).
 
-- Frontend Interface, PHP Integration & XAMPP Configuration: Developed with assistance from **ChatGPT** by OpenAI.
+- Frontend Interface, PHP Integration & XAMPP Configuration: Developed with assistance from Teammates.
